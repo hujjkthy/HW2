@@ -1,0 +1,57 @@
+{
+  "weights": "/home/fuchenxi/hw2/runs/task2_train/road_vehicle_full_yolov8s/weights/best.pt",
+  "video": "/home/fuchenxi/hw2/traffic.mp4",
+  "clip": {
+    "source_fps": 12.000004439102725,
+    "source_width": 4096,
+    "source_height": 2160,
+    "clip_width": 1280,
+    "clip_height": 675,
+    "start_sec": 110.0,
+    "duration_sec": 19.999992601498196,
+    "frames": 240,
+    "clip_path": "/home/fuchenxi/hw2/runs/task2_track/traffic_clip.mp4"
+  },
+  "tracker": "bytetrack.yaml",
+  "confidence": 0.25,
+  "iou": 0.7,
+  "frames_processed": 240,
+  "total_unique_track_ids": 150,
+  "counts_by_class": {
+    "bicycle": 2,
+    "bus": 10,
+    "car": 65,
+    "minivan": 3,
+    "motorbike": 14,
+    "pickup": 12,
+    "rickshaw": 4,
+    "suv": 26,
+    "taxi": 2,
+    "three wheelers -CNG-": 4,
+    "truck": 5,
+    "van": 3
+  },
+  "counting_line": {
+    "x1": 128.0,
+    "y1": 269.6,
+    "x2": 1152.0,
+    "y2": 269.6
+  },
+  "total_line_crossing_count": 21,
+  "line_crossing_counts_by_class": {
+    "bus": 2,
+    "car": 11,
+    "minivan": 1,
+    "motorbike": 1,
+    "pickup": 2,
+    "suv": 2,
+    "taxi": 1,
+    "truck": 1
+  },
+  "outputs": {
+    "annotated_video": "/home/fuchenxi/hw2/runs/task2_track/tracked_traffic.mp4",
+    "tracking_csv": "/home/fuchenxi/hw2/runs/task2_track/tracking_results.csv",
+    "line_crossing_csv": "/home/fuchenxi/hw2/runs/task2_track/line_crossing_events.csv",
+    "summary_json": "/home/fuchenxi/hw2/runs/task2_track/summary.json"
+  }
+}
